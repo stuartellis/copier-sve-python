@@ -1,0 +1,104 @@
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Defaults for editor applications
+#
+# See: https://EditorConfig.org
+
+# Specifies that this is the top-level EditorConfig
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[{Dockerfile, *.dockerfile}]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+# Go requires tab indentation
+[{go.mod,go.sum,*.go}]]
+indent_style = tab
+indent_size = 4
+max_line_length = 88
+
+[*.java]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+[*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 88
+
+[*.json]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+[{justfile, *.just}]
+indent_style = space
+indent_size = 4
+
+# Makefiles require tab indentation
+[{Makefile, *.mk}]
+indent_style = tab
+indent_size = 4
+
+[*.md]
+indent_style = space
+indent_size = 4
+max_line_length = 0
+trim_trailing_whitespace = false
+
+[*.{py,rst}]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+[*.rs]
+indent_style = space
+indent_size = 4
+max_line_length = 120
+
+[*.sh]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+[*.sql]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+[*.{tf,tfvars}]
+indent_style = space
+indent_size = 2
+max_line_length = 88
+
+[*.toml]
+indent_style = space
+indent_size = 2
+max_line_length = 88
+
+[*.ts]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+
+[*.tsv]
+indent_style = tab
+indent_size = 2
+max_line_length = 0
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+max_line_length = 88

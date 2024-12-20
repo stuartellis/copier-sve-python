@@ -1,0 +1,13 @@
+---
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for markdownlint CLI tool
+#
+# See: https://github.com/DavidAnson/markdownlint-cli2
+
+config:
+
+  # Disable maximum line-length
+  MD013: false

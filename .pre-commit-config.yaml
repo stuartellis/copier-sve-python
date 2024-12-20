@@ -1,0 +1,43 @@
+---
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for pre-commit
+#
+# See https://pre-commit.com
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: "v5.0.0"
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-json
+      - id: check-toml
+      - id: check-added-large-files
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: "v5.0.2"
+    hooks:
+      - id: reuse
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: "v0.16.0"
+    hooks:
+      - id: markdownlint-cli2
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: "v1.35.1"
+    hooks:
+      - id: yamllint
+        args: [--strict]
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: "0.30.0"
+    hooks:
+      - id: check-gitlab-ci
+  - repo: local
+    hooks:
+      - id: check-justfile
+        name: check justfile
+        entry: just
+        language: system
+        args: [--unstable, --fmt, --check, -f]
+        files: justfile

@@ -1,0 +1,11 @@
+---
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for yamllint CLI tool
+#
+# See https://yamllint.readthedocs.io
+
+# Begin with yamllint default settings
+extends: default

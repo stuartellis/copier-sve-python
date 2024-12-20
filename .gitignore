@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# See: https://git-scm.com/docs/gitignore
+
+# Operating system files
+.DS_Store
+thumbs.db
+
+# Code editors
+.idea/
+.vscode/

@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2024-present {{ maintainer_fullname }} <{{ maintainer_email }}>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for REUSE:
+#
+# https://reuse.software/
+
+version = 1
+SPDX-PackageName = "copier-sve-python"
+SPDX-PackageSupplier = "Stuart Ellis <stuart@stuartellis.name>"
+SPDX-PackageDownloadLocation = "https://github.com/stuartellis/copier-sve-python"
