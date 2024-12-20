@@ -10,7 +10,7 @@ SPDX-License-Identifier: MIT
 
 This is a [Copier](https://copier.readthedocs.io/en/stable/) template for Python projects.
 
-Version: 0.2.0
+Version: 0.3.0
 
 ## Install
 
