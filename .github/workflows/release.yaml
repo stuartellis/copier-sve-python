@@ -30,6 +30,6 @@ jobs:
         with:
           python-version: '3.12'
       - name: Setup uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v5
       - name: Prepare release
         run: uv tool run --from python-semantic-release semantic-release version
