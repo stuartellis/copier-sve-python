@@ -18,10 +18,13 @@ _answers_file: .copier-answers-python.yaml
 
 _skip_if_exists:
   - .gitignore
+  - .markdownlint-cli2.yaml
   - .pre-commit-config.yaml
   - .trivyignore.yaml
+  - .yamllint.yaml
   - mkdocs.yaml
   - pyproject.toml
+  - README.md
   - trivy.yaml
 
 project_name:
