@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: {{ copyright_date }}-present {{ maintainer_fullname }} <{{ maintainer_email }}>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for MkDocs
+#
+# https://www.mkdocs.org
+
+site_name: '{{ project_name }}'
+site_description: '{{ project_description }}' # yamllint disable-line rule:line-length
+site_url: https://{{ repository_provider }}/{{ repository_namespace }}/{{ project_name }}
+repo_url: https://{{ repository_provider }}/{{ repository_namespace }}/{{ project_name }}
+
+nav:
+  - Home:
+    - Overview: index.md
+    - License: license.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+exclude_docs: |
+  mod.just
+
+plugins:
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: false
+
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: # Paths to search for inclusions
+        - CONTRIBUTING.md
+        - LICENSE.md
+        - README.md
+      check_paths: true

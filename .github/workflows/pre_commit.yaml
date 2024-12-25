@@ -1,0 +1,28 @@
+---
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for GitHub Actions
+#
+# See: https://github.com/features/actions
+
+name: pre-commit
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: just
+      - uses: pre-commit/action@v3.0.1

@@ -8,13 +8,21 @@
 # See: https://copier.readthedocs.io/en/stable/
 
 # This template uses the configuration format introduced in Copier version 9
-_min_copier_version: "9"
+_min_copier_version: '9'
 
 # Use this subdirectory of the repository as the root directory of the template
 _subdirectory: template
 
 # Name of the answers file
 _answers_file: .copier-answers-python.yaml
+
+_skip_if_exists:
+  - .gitignore
+  - .pre-commit-config.yaml
+  - .trivyignore.yaml
+  - mkdocs.yaml
+  - pyproject.toml
+  - trivy.yaml
 
 project_name:
   type: str
@@ -27,24 +35,48 @@ project_description:
 maintainer_fullname:
   type: str
   help: Your full name
-  default: "Stuart Ellis"
+  default: 'Stuart Ellis'
 
 maintainer_email:
   type: str
   help: Your email
-  default: "stuart@stuartellis.name"
+  default: 'stuart@stuartellis.name'
+
+maintainer_username:
+  type: str
+  help: Your username on the repository provider
+  default: stuartellis
+
+repository_provider:
+  type: str
+  help: Your repository provider
+  default: github.com
+  choices:
+    - codeberg.org
+    - github.com
+    - gitlab.com
+
+repository_namespace:
+  type: str
+  help: Your repository namespace
+  default: '{{ maintainer_username }}'
+
+repository_name:
+  type: str
+  help: Your repository name
+  default: '{{ project_name }}'
 
 copyright_holder:
   type: str
   help: The name of the person or entity that holds the copyright
-  default: "{{ maintainer_fullname }}"
+  default: '{{ maintainer_fullname }}'
 
 copyright_holder_email:
   type: str
   help: The email of the person or entity that holds the copyright
-  default: "{{ maintainer_email }}"
+  default: '{{ maintainer_email }}'
 
 copyright_date:
   type: str
   help: The copyright date
-  default: "{{ current_year }}"
+  default: '{{ current_year }}'

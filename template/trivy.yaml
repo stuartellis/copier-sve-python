@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: {{ copyright_date }}-present {{ maintainer_fullname }} <{{ maintainer_email }}>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for Trivy scanner
+#
+# See https://aquasecurity.github.io/trivy
+
+# We need to opt-in to the YAML format for ignore
+ignorefile: .trivyignore.yaml
+
+scan:
+  skip-dirs:
+    - './.cache/'
+    - './tmp/'

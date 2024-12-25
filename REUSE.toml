@@ -7,6 +7,12 @@
 # https://reuse.software/
 
 version = 1
-SPDX-PackageName = "copier-sve-python"
+SPDX-PackageName = "copier-sve-baseline"
 SPDX-PackageSupplier = "Stuart Ellis <stuart@stuartellis.name>"
-SPDX-PackageDownloadLocation = "https://github.com/stuartellis/copier-sve-python"
+SPDX-PackageDownloadLocation = "https://github.com/stuartellis/copier-sve-baseline"
+
+[[annotations]]
+path = "CHANGELOG.md"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"

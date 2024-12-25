@@ -1,0 +1,13 @@
+---
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for Prettier:
+#
+# See: https://prettier.io/
+
+trailingComma: 'es5'
+tabWidth: 2
+semi: false
+singleQuote: true
