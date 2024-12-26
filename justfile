@@ -16,8 +16,8 @@ help:
 
 # Run linters
 lint:
-    @pre-commit run --all-files
+    @uv tool run pre-commit run --all-files
 
 # Release
 release:
-    @semantic-release version
+    @uv tool run --from python-semantic-release semantic-release version
