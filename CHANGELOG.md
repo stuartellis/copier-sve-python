@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v0.2.0 (2024-12-26)
+
+### Bug Fixes
+
+- **ci**: Amend Action for p-s-r
+  ([`0e8624d`](https://github.com/stuartellis/copier-sve-python/commit/0e8624dc2080a0015a2cef224146eab6cb433c89))
+
+### Features
+
+- **ci**: Use Action for p-s-r
+  ([`c421900`](https://github.com/stuartellis/copier-sve-python/commit/c4219004e6ad6833955ed558d6841c5d6858a1fc))
+
+
 ## v0.1.0 (2024-12-26)
 
 ### Chores
