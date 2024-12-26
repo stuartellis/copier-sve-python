@@ -1,6 +1,22 @@
 # CHANGELOG
 
 
+## v0.3.0 (2024-12-26)
+
+### Chores
+
+- **ci**: Remove excess step from CI
+  ([`206a3a0`](https://github.com/stuartellis/copier-sve-python/commit/206a3a094c5febd4291fc8e1c973ce1a77eb6edb))
+
+### Features
+
+- **ci**: Add Action step to install Trivy
+  ([`2e15522`](https://github.com/stuartellis/copier-sve-python/commit/2e155225f63ceabd3d6f964dac075fe7b68d3754))
+
+- **ci**: Improve release CI
+  ([`583a3c9`](https://github.com/stuartellis/copier-sve-python/commit/583a3c9552a22a48b575a4c270d27c2062967920))
+
+
 ## v0.2.0 (2024-12-26)
 
 ### Bug Fixes
