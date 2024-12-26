@@ -24,4 +24,8 @@ jobs:
       - uses: taiki-e/install-action@v2
         with:
           tool: just
+      - uses: aquasecurity/setup-trivy@v0.2.2
+        with:
+          version: v0.58.0
+          cache: true
       - uses: pre-commit/action@v3.0.1
