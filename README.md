@@ -8,7 +8,7 @@ SPDX-License-Identifier: MIT
 
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-orange.json)](https://github.com/copier-org/copier) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-This [Copier](https://copier.readthedocs.io/en/stable/) template provides essential files that are required for any software project.
+This [Copier](https://copier.readthedocs.io/en/stable/) template provides essential files that are required for a Python project.
 
 ## Install
 
