@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: MIT
 #
-# Configuration for GitHub Actions
+# Configuration for a GitHub Actions workflow
 #
 # See: https://github.com/features/actions
 
