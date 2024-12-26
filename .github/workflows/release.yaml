@@ -10,7 +10,10 @@
 name: release
 
 # yamllint disable-line rule:truthy
-on: push
+on:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -18,7 +21,6 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: startsWith(github.ref, 'refs/tags/')
     steps:
       - name: Checkout
         uses: actions/checkout@v4
