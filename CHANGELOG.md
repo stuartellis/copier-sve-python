@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## v0.4.0 (2024-12-27)
+
+### Chores
+
+- **template**: Improve mkdocs.yaml template
+  ([`ffda813`](https://github.com/stuartellis/copier-sve-python/commit/ffda813a094363e6e99f61f66b52d6189a6c239d))
+
+- **tools**: Improve justfile
+  ([`044995b`](https://github.com/stuartellis/copier-sve-python/commit/044995b02477843b917008974b75c9a2bbcd2c3d))
+
+### Features
+
+- **template**: Set pre-commit to prevent merge conflict markers
+  ([`f8dc094`](https://github.com/stuartellis/copier-sve-python/commit/f8dc094a381ddfdb6587623c06aae45292c0a5a8))
+
+- **tools**: Remove semantic-release defaults from pyproject.toml
+  ([`ad4593f`](https://github.com/stuartellis/copier-sve-python/commit/ad4593feb38b65c1476d4b0f9a2bd84e892bcbcb))
+
+
 ## v0.3.0 (2024-12-26)
 
 ### Chores
