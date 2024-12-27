@@ -39,6 +39,13 @@ copier update -a .copier-answers-python.yaml .
 
 The current version of this project is not for general use.
 
+Some configuration files for this project are managed by my [baseline](https://github.com/stuartellis/copier-sve-baseline) Copier template. To synchronize this project with the baseline template, run these commands:
+
+```shell
+cd copier-sve-python
+copier update -a .copier-answers-baseline.yaml .
+```
+
 ## License
 
 MIT © 2024 Stuart Ellis

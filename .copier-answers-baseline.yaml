@@ -1,0 +1,24 @@
+---
+# SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Maintained by Copier: NEVER EDIT THIS FILE
+#
+# See:
+#
+# https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
+
+_commit: v0.6.0
+_src_path: git+https://github.com/stuartellis/copier-sve-baseline
+copyright_date: '2024'
+copyright_holder: Stuart Ellis
+copyright_holder_email: stuart@stuartellis.name
+maintainer_email: stuart@stuartellis.name
+maintainer_fullname: Stuart Ellis
+maintainer_username: stuartellis
+project_description: Copier template for Python projects
+project_name: copier-sve-python
+repository_name: copier-sve-python
+repository_namespace: stuartellis
+repository_provider: github.com
