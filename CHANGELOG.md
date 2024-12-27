@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.5.0 (2024-12-27)
+
+### Features
+
+- **tools**: Use stuartellis/copier-sve-baseline template
+  ([`dce7616`](https://github.com/stuartellis/copier-sve-python/commit/dce7616e307d3d5be564d166b650224ad93b9e14))
+
+
 ## v0.4.0 (2024-12-27)
 
 ### Chores
