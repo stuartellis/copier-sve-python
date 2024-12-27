@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.5.1 (2024-12-27)
+
+### Bug Fixes
+
+- **template**: Do not disable Python packaging
+  ([`067baf1`](https://github.com/stuartellis/copier-sve-python/commit/067baf1443a7381bf59d182b1a8d24b2003e67a4))
+
+
 ## v0.5.0 (2024-12-27)
 
 ### Features
