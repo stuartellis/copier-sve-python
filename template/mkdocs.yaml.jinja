@@ -4,7 +4,7 @@
 #
 # Configuration for MkDocs
 #
-# https://www.mkdocs.org
+# See: https://www.mkdocs.org
 
 site_name: '{{ project_name }}'
 site_description: '{{ project_description }}' # yamllint disable-line rule:line-length
@@ -21,9 +21,6 @@ theme:
   highlightjs: true
   hljs_languages:
     - yaml
-
-exclude_docs: |
-  mod.just
 
 plugins:
   - mkdocstrings:
