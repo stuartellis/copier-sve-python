@@ -1,6 +1,22 @@
 # CHANGELOG
 
 
+## v0.5.3 (2024-12-28)
+
+### Bug Fixes
+
+- **template**: Amend template file for MkDocs
+  ([`f2334a9`](https://github.com/stuartellis/copier-sve-python/commit/f2334a9c7be57912b98a604940f1c9c9107882c4))
+
+### Chores
+
+- **template**: Amend template files
+  ([`59e6825`](https://github.com/stuartellis/copier-sve-python/commit/59e6825dcc35162cc0bc1244526b74ed1e58d197))
+
+- **template**: Update from baseline
+  ([`769e668`](https://github.com/stuartellis/copier-sve-python/commit/769e6680dc1e4f2bbf0f556f3c0c7c1340844515))
+
+
 ## v0.5.2 (2024-12-28)
 
 ### Bug Fixes
