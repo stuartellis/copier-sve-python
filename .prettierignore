@@ -2,8 +2,9 @@
 #
 # SPDX-License-Identifier: MIT
 #
-# Exclusions for Prettier:
+# Exclusions for Prettier
 #
-# See https://prettier.io/
+# See: https://prettier.io/
 
 CHANGELOG.md
+.copier-*.yaml
