@@ -9,7 +9,7 @@
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: 'v5.0.0'
+    rev: "v5.0.0"
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -19,33 +19,33 @@ repos:
       - id: check-merge-conflict
         args: [--assume-in-merge]
   - repo: https://github.com/fsfe/reuse-tool
-    rev: 'v5.0.2'
+    rev: "v5.0.2"
     hooks:
       - id: reuse
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: 'v3.4.2'
+    rev: "v3.4.2"
     hooks:
       - id: prettier
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: 'v0.16.0'
+    rev: "v0.16.0"
     hooks:
       - id: markdownlint-cli2
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: 'v1.35.1'
+    rev: "v1.35.1"
     hooks:
       - id: yamllint
         args: [--strict]
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: '0.30.0'
+    rev: "0.30.0"
     hooks:
       - id: check-github-workflows
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: 'v0.8.4'
+    rev: "v0.8.4"
     hooks:
       - id: ruff
       - id: ruff-format
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: 'v1.11.0'
+    rev: "v1.14.0"
     hooks:
       - id: mypy
   - repo: local
@@ -60,11 +60,11 @@ repos:
         name: trivy config
         entry: trivy
         language: system
-        args: [config, --exit-code, '1', .]
+        args: [config, --exit-code, "1", .]
         pass_filenames: false
       - id: trivy-fs
         name: trivy fs
         entry: trivy
         language: system
-        args: [fs, --exit-code, '1', .]
+        args: [fs, --exit-code, "1", .]
         pass_filenames: false
