@@ -7,15 +7,15 @@
 #
 # See: https://www.mkdocs.org
 
-site_name: '{{ project_name }}'
-site_description: '{{ project_description }}' # yamllint disable-line rule:line-length
+site_name: "{{ project_name }}"
+site_description: "{{ project_description }}" # yamllint disable-line rule:line-length
 site_url: https://{{ repository_provider }}/{{ repository_namespace }}/{{ project_name }}
 repo_url: https://{{ repository_provider }}/{{ repository_namespace }}/{{ project_name }}
 
 nav:
   - Home:
-    - Overview: index.md
-    - License: license.md
+      - Overview: index.md
+      - License: license.md
 
 theme:
   name: readthedocs
@@ -34,7 +34,6 @@ plugins:
 markdown_extensions:
   - pymdownx.snippets:
       base_path: # Paths to search for inclusions
-        - CONTRIBUTING.md
         - LICENSE.md
         - README.md
       check_paths: true
