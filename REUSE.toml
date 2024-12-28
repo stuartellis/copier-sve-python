@@ -18,7 +18,19 @@ SPDX-FileCopyrightText = "Stuart Ellis"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = "copier-*.yaml"
+path = ".copier-*.yaml"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ".devcontainer/**/**.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "uv.lock"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Stuart Ellis"
 SPDX-License-Identifier = "MIT"
