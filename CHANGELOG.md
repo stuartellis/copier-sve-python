@@ -1,6 +1,23 @@
 # CHANGELOG
 
 
+## v0.5.2 (2024-12-28)
+
+### Bug Fixes
+
+- **baseline**: Update to template v0.6.2
+  ([`fa978ca`](https://github.com/stuartellis/copier-sve-python/commit/fa978ca5c13899446e0f838ee8787b6fade3323d))
+
+- **template**: Amend YAML files
+  ([`5d32862`](https://github.com/stuartellis/copier-sve-python/commit/5d3286297d5403b1fd28dc69ee1388cb787c2f90))
+
+- **tools**: Update files for Prettier compatibility
+  ([`6e17827`](https://github.com/stuartellis/copier-sve-python/commit/6e17827f5eb895da9c2fed4484358619d565864c))
+
+- **tools**: Update for pre-commit compatibility
+  ([`a063499`](https://github.com/stuartellis/copier-sve-python/commit/a06349933531ba64f00aeaecdc53f7dc3f4b9b23))
+
+
 ## v0.5.1 (2024-12-27)
 
 ### Bug Fixes
