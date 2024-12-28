@@ -2,11 +2,23 @@
 #
 # SPDX-License-Identifier: MIT
 #
-# Configuration for REUSE:
+# Configuration for REUSE
 #
-# https://reuse.software/
+# See: https://reuse.software/
 
 version = 1
 SPDX-PackageName = "copier-sve-python"
 SPDX-PackageSupplier = "Stuart Ellis <stuart@stuartellis.name>"
 SPDX-PackageDownloadLocation = "https://github.com/stuartellis/copier-sve-python"
+
+[[annotations]]
+path = "CHANGELOG.md"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "copier-*.yaml"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
