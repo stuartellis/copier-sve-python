@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.6.0 (2025-01-01)
+
+### Features
+
+- **copier**: Update from baseline
+  ([`b3ad945`](https://github.com/stuartellis/copier-sve-python/commit/b3ad9453eb429a7693fa57f5c3d8160e28d935a2))
+
+
 ## v0.5.3 (2024-12-28)
 
 ### Bug Fixes
