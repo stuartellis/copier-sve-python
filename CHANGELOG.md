@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.7.1 (2025-01-11)
+
+### Bug Fixes
+
+- **copier**: Amend template README.md to set copyright
+  ([`990bc1a`](https://github.com/stuartellis/copier-sve-python/commit/990bc1aaa2731ad99ad80d0b4126de8a7762745f))
+
+
 ## v0.7.0 (2025-01-01)
 
 
