@@ -18,16 +18,20 @@ repos:
       - id: check-added-large-files
       - id: check-merge-conflict
         args: [--assume-in-merge]
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.0
+    hooks:
+      - id: gitleaks
   - repo: https://github.com/fsfe/reuse-tool
     rev: "v5.0.2"
     hooks:
       - id: reuse
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: "v3.4.2"
+    rev: "v3.5.2"
     hooks:
       - id: prettier
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: "v0.16.0"
+    rev: "v0.17.2"
     hooks:
       - id: markdownlint-cli2
   - repo: https://github.com/adrienverge/yamllint.git
@@ -36,16 +40,16 @@ repos:
       - id: yamllint
         args: [--strict]
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: "0.30.0"
+    rev: "0.31.2"
     hooks:
       - id: check-github-workflows
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.8.4"
+    rev: "v0.9.7"
     hooks:
       - id: ruff
       - id: ruff-format
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "v1.14.0"
+    rev: "v1.15.0"
     hooks:
       - id: mypy
   - repo: local
