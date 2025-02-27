@@ -1,6 +1,37 @@
 # CHANGELOG
 
 
+## v0.8.0 (2025-02-27)
+
+### Chores
+
+- **deps**: Bump python-semantic-release/python-semantic-release
+  ([`2202c30`](https://github.com/stuartellis/copier-sve-python/commit/2202c30bce4c0e215d32efe49e076c27068c57fd))
+
+Bumps
+  [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release)
+  from 9.15.2 to 9.21.0. - [Release
+  notes](https://github.com/python-semantic-release/python-semantic-release/releases) -
+  [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.rst)
+  -
+  [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.15.2...v9.21.0)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+
+update-type: version-update:semver-minor ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+### Features
+
+- **tooling**: Add recipe to sync from baseline template
+  ([`3854dd8`](https://github.com/stuartellis/copier-sve-python/commit/3854dd8a0b2235e8fe716dd90ee2f26ec7d6f4ec))
+
+- **tooling**: Sync from baseline template
+  ([`3510068`](https://github.com/stuartellis/copier-sve-python/commit/351006879156b4b40701896991dea7a84e15e0c1))
+
+
 ## v0.7.1 (2025-01-11)
 
 ### Bug Fixes
@@ -145,9 +176,7 @@ Bumps [astral-sh/setup-uv](https://github.com/astral-sh/setup-uv) from 3 to 5. -
 
 --- updated-dependencies: - dependency-name: astral-sh/setup-uv dependency-type: direct:production
 
-update-type: version-update:semver-major
-
-...
+update-type: version-update:semver-major ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
