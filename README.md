@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2024-present Stuart Ellis <stuart@stuartellis.name>
+SPDX-FileCopyrightText: 2025-present Stuart Ellis <stuart@stuartellis.name>
 
 SPDX-License-Identifier: MIT
 -->
@@ -48,4 +48,4 @@ copier update -a .copier-answers-baseline.yaml .
 
 ## License
 
-MIT © 2024 Stuart Ellis
+MIT © 2025 Stuart Ellis

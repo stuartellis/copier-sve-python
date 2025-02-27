@@ -1,27 +1,22 @@
 # CHANGELOG
 
-
 ## v0.8.0 (2025-02-27)
 
 ### Chores
 
 - **deps**: Bump python-semantic-release/python-semantic-release
   ([`2202c30`](https://github.com/stuartellis/copier-sve-python/commit/2202c30bce4c0e215d32efe49e076c27068c57fd))
-
-Bumps
+  Bumps
   [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release)
   from 9.15.2 to 9.21.0. - [Release
   notes](https://github.com/python-semantic-release/python-semantic-release/releases) -
   [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.rst)
-  -
-  [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.15.2...v9.21.0)
+  - [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.15.2...v9.21.0)
 
---- updated-dependencies: - dependency-name: python-semantic-release/python-semantic-release
-  dependency-type: direct:production
-
-update-type: version-update:semver-minor ...
-
-Signed-off-by: dependabot[bot] <support@github.com>
+    --- updated-dependencies: - dependency-name: python-semantic-release/python-semantic-release
+    dependency-type: direct:production
+  update-type: version-update:semver-minor ...
+  Signed-off-by: dependabot[bot] <support@github.com>
 
 ### Features
 
@@ -31,7 +26,6 @@ Signed-off-by: dependabot[bot] <support@github.com>
 - **tooling**: Sync from baseline template
   ([`3510068`](https://github.com/stuartellis/copier-sve-python/commit/351006879156b4b40701896991dea7a84e15e0c1))
 
-
 ## v0.7.1 (2025-01-11)
 
 ### Bug Fixes
@@ -39,9 +33,7 @@ Signed-off-by: dependabot[bot] <support@github.com>
 - **copier**: Amend template README.md to set copyright
   ([`990bc1a`](https://github.com/stuartellis/copier-sve-python/commit/990bc1aaa2731ad99ad80d0b4126de8a7762745f))
 
-
 ## v0.7.0 (2025-01-01)
-
 
 ## v0.6.0 (2025-01-01)
 
@@ -52,7 +44,6 @@ Signed-off-by: dependabot[bot] <support@github.com>
 
 - **template**: Update templated .editorconfig
   ([`cab9e37`](https://github.com/stuartellis/copier-sve-python/commit/cab9e374f1531d054d3f8557f014b95de4845734))
-
 
 ## v0.5.3 (2024-12-28)
 
@@ -68,7 +59,6 @@ Signed-off-by: dependabot[bot] <support@github.com>
 
 - **template**: Update from baseline
   ([`769e668`](https://github.com/stuartellis/copier-sve-python/commit/769e6680dc1e4f2bbf0f556f3c0c7c1340844515))
-
 
 ## v0.5.2 (2024-12-28)
 
@@ -86,7 +76,6 @@ Signed-off-by: dependabot[bot] <support@github.com>
 - **tools**: Update for pre-commit compatibility
   ([`a063499`](https://github.com/stuartellis/copier-sve-python/commit/a06349933531ba64f00aeaecdc53f7dc3f4b9b23))
 
-
 ## v0.5.1 (2024-12-27)
 
 ### Bug Fixes
@@ -94,14 +83,12 @@ Signed-off-by: dependabot[bot] <support@github.com>
 - **template**: Do not disable Python packaging
   ([`067baf1`](https://github.com/stuartellis/copier-sve-python/commit/067baf1443a7381bf59d182b1a8d24b2003e67a4))
 
-
 ## v0.5.0 (2024-12-27)
 
 ### Features
 
 - **tools**: Use stuartellis/copier-sve-baseline template
   ([`dce7616`](https://github.com/stuartellis/copier-sve-python/commit/dce7616e307d3d5be564d166b650224ad93b9e14))
-
 
 ## v0.4.0 (2024-12-27)
 
@@ -121,7 +108,6 @@ Signed-off-by: dependabot[bot] <support@github.com>
 - **tools**: Remove semantic-release defaults from pyproject.toml
   ([`ad4593f`](https://github.com/stuartellis/copier-sve-python/commit/ad4593feb38b65c1476d4b0f9a2bd84e892bcbcb))
 
-
 ## v0.3.0 (2024-12-26)
 
 ### Chores
@@ -137,7 +123,6 @@ Signed-off-by: dependabot[bot] <support@github.com>
 - **ci**: Improve release CI
   ([`583a3c9`](https://github.com/stuartellis/copier-sve-python/commit/583a3c9552a22a48b575a4c270d27c2062967920))
 
-
 ## v0.2.0 (2024-12-26)
 
 ### Bug Fixes
@@ -149,7 +134,6 @@ Signed-off-by: dependabot[bot] <support@github.com>
 
 - **ci**: Use Action for p-s-r
   ([`c421900`](https://github.com/stuartellis/copier-sve-python/commit/c4219004e6ad6833955ed558d6841c5d6858a1fc))
-
 
 ## v0.1.0 (2024-12-26)
 
@@ -171,8 +155,8 @@ Signed-off-by: dependabot[bot] <support@github.com>
   ([`f7ef697`](https://github.com/stuartellis/copier-sve-python/commit/f7ef697932a9e654b6bb0acf2555eb4cd47342be))
 
 Bumps [astral-sh/setup-uv](https://github.com/astral-sh/setup-uv) from 3 to 5. - [Release
-  notes](https://github.com/astral-sh/setup-uv/releases) -
-  [Commits](https://github.com/astral-sh/setup-uv/compare/v3...v5)
+notes](https://github.com/astral-sh/setup-uv/releases) -
+[Commits](https://github.com/astral-sh/setup-uv/compare/v3...v5)
 
 --- updated-dependencies: - dependency-name: astral-sh/setup-uv dependency-type: direct:production
 
