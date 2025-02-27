@@ -14,6 +14,10 @@
 help:
     @just --list
 
+# Resynchronize with Copier baseline template
+baseline:
+    @uv tool run copier update -a .copier-answers-baseline.yaml .
+
 # Run linters
 lint:
     @uv tool run pre-commit run --all-files
