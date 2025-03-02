@@ -30,6 +30,12 @@ SPDX-FileCopyrightText = "Stuart Ellis"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
+path = ".python-version"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
 path = "uv.lock"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Stuart Ellis"
