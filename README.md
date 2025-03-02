@@ -8,7 +8,15 @@ SPDX-License-Identifier: MIT
 
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-orange.json)](https://github.com/copier-org/copier) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-This [Copier](https://copier.readthedocs.io/en/stable/) template provides essential files that are required for a Python project.
+This [Copier](https://copier.readthedocs.io/en/stable/) template provides essential files for a Python project.
+
+These files enable a set of additional tools:
+
+- [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2)
+- [MkDocs](https://www.mkdocs.org)
+- [pre-commit](https://pre-commit.com)
+- [Trivy](https://trivy.dev)
+- [yamllint](https://yamllint.readthedocs.io)
 
 ## Install
 
