@@ -18,6 +18,12 @@ repos:
       - id: check-added-large-files
       - id: check-merge-conflict
         args: [--assume-in-merge]
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: "v4.0.0"
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+        args: [--strict]
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.24.0
     hooks:
