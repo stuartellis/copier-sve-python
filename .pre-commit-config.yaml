@@ -34,23 +34,28 @@ repos:
     rev: "v5.0.2"
     hooks:
       - id: reuse
+        stages: [pre-commit]
   - repo: https://github.com/rbubley/mirrors-prettier
     rev: "v3.5.3"
     hooks:
       - id: prettier
+        stages: [pre-commit]
   - repo: https://github.com/DavidAnson/markdownlint-cli2
     rev: "v0.17.2"
     hooks:
       - id: markdownlint-cli2
+        stages: [pre-commit]
   - repo: https://github.com/adrienverge/yamllint.git
     rev: "v1.35.1"
     hooks:
       - id: yamllint
+        stages: [pre-commit]
         args: [--strict]
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: "0.31.3"
     hooks:
       - id: check-github-workflows
+        stages: [pre-commit]
   - repo: local
     hooks:
       - id: check-justfile
@@ -59,3 +64,4 @@ repos:
         language: system
         args: [--unstable, --fmt, --check, -f]
         files: justfile
+        stages: [pre-commit]
