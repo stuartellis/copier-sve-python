@@ -32,32 +32,40 @@ repos:
     rev: "v5.0.2"
     hooks:
       - id: reuse
+        stages: [pre-commit]
   - repo: https://github.com/rbubley/mirrors-prettier
     rev: "v3.5.3"
     hooks:
       - id: prettier
+        stages: [pre-commit]
   - repo: https://github.com/DavidAnson/markdownlint-cli2
     rev: "v0.17.2"
     hooks:
       - id: markdownlint-cli2
+        stages: [pre-commit]
   - repo: https://github.com/adrienverge/yamllint.git
     rev: "v1.35.1"
     hooks:
       - id: yamllint
+        stages: [pre-commit]
         args: [--strict]
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: "0.31.3"
     hooks:
       - id: check-github-workflows
+        stages: [pre-commit]
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: "v0.9.9"
     hooks:
       - id: ruff
+        stages: [pre-commit]
       - id: ruff-format
+        stages: [pre-commit]
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: "v1.15.0"
     hooks:
       - id: mypy
+        stages: [pre-commit]
   - repo: local
     hooks:
       - id: check-justfile
@@ -66,15 +74,18 @@ repos:
         language: system
         args: [--unstable, --fmt, --check, -f]
         files: justfile
+        stages: [pre-commit]
       - id: trivy-config
         name: trivy config
         entry: trivy
         language: system
         args: [config, --exit-code, "1", .]
         pass_filenames: false
+        stages: [pre-commit]
       - id: trivy-fs
         name: trivy fs
         entry: trivy
         language: system
         args: [fs, --exit-code, "1", .]
         pass_filenames: false
+        stages: [pre-commit]
