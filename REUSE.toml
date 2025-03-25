@@ -30,7 +30,31 @@ SPDX-FileCopyrightText = "Stuart Ellis"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
+path = ".opentofu-version"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
 path = ".python-version"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ".terraform-version"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "tf/contexts/**/**.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Stuart Ellis"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "tf/definitions/**/.terraform.lock.hcl"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Stuart Ellis"
 SPDX-License-Identifier = "MIT"
