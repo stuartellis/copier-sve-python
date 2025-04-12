@@ -1,0 +1,42 @@
+---
+# SPDX-FileCopyrightText: 2025-present Stuart Ellis <stuart@stuartellis.name>
+#
+# SPDX-License-Identifier: MIT
+#
+# Configuration for the Task runner
+#
+# See: https://taskfile.dev
+
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - task: list
+
+  list:
+    desc: List available tasks
+    cmds:
+      - task --list
+
+  copier:baseline:
+    desc: Update Copier from baseline template
+    cmds:
+      - copier update -a .copier-answers-baseline.yaml .
+
+  pre-commit:check:
+    desc: Check the project with pre-commit
+    cmds:
+      - pre-commit run --all-files
+
+  pre-commit:run:
+    desc: Run a specific pre-commit check on the project
+    cmds:
+      - pre-commit run "{{.HOOK_ID}}" --all-files
+    requires:
+      vars: [HOOK_ID]
+
+  pre-commit:setup:
+    desc: Setup pre-commit for use
+    cmds:
+      - pre-commit install
