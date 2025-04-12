@@ -17,8 +17,8 @@ It generates a `pyproject.toml` files that supports:
 - [pytest](https://docs.pytest.org/en/stable/) - Python testing framework
 - [pytest-cov](https://github.com/pytest-dev/pytest-cov) - Code coverage plugin for pytest
 - [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/) - Automates the release process for Python projects
-- [Ruff](https://docs.astral.sh/ruff/)
-- [uv](https://github.com/astral-sh/uv)
+- [Ruff](https://docs.astral.sh/ruff/) - Python linter and code formatter
+- [uv](https://github.com/astral-sh/uv) - Python package and project manager
 
 The files in the template also enable a set of additional tools:
 
