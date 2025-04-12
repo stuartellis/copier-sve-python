@@ -9,7 +9,7 @@
 #
 # https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
 
-_commit: v0.15.0
+_commit: v0.17.0
 _src_path: git+https://github.com/stuartellis/copier-sve-baseline
 copyright_date: '2025'
 copyright_holder: Stuart Ellis
