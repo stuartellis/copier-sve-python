@@ -23,7 +23,7 @@ jobs:
       - uses: taiki-e/install-action@v2
         with:
           tool: just
-      - uses: aquasecurity/setup-trivy@v0.2.2
+      - uses: aquasecurity/setup-trivy@v0.2.3
         with:
           version: v0.58.0
           cache: true
